@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/Coffee Machine/task" />
             <option value="$PROJECT_DIR$/Problems/A capital letter or a digit" />
             <option value="$PROJECT_DIR$/Problems/Are the numbers different" />
+            <option value="$PROJECT_DIR$/Problems/Between two numbers" />
             <option value="$PROJECT_DIR$/Problems/Boxes" />
             <option value="$PROJECT_DIR$/Problems/Boys in the sport class" />
             <option value="$PROJECT_DIR$/Problems/Check the value" />
@@ -25,6 +26,7 @@
             <option value="$PROJECT_DIR$/Problems/Division" />
             <option value="$PROJECT_DIR$/Problems/Four numbers" />
             <option value="$PROJECT_DIR$/Problems/Interval" />
+            <option value="$PROJECT_DIR$/Problems/Job" />
             <option value="$PROJECT_DIR$/Problems/N-th symbol" />
             <option value="$PROJECT_DIR$/Problems/National assembly" />
             <option value="$PROJECT_DIR$/Problems/Next even number" />
@@ -38,6 +40,7 @@
             <option value="$PROJECT_DIR$/Problems/The information about a person" />
             <option value="$PROJECT_DIR$/Problems/The number of tens" />
             <option value="$PROJECT_DIR$/Problems/Very Big Number" />
+            <option value="$PROJECT_DIR$/Problems/Within a range" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>
