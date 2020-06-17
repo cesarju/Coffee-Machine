@@ -3,53 +3,52 @@ import java.util.*
 
 fun main() {
 
-    //Etapa 1/6 coffe
-    /*
-    println("Starting to make a coffee")
-    println("Grinding coffee beans")
-    println("Boiling water")
-    println("Mixing boiled water with crushed coffee beans")
-    println("Pouring coffee into the cup")
-    println("Pouring some milk into the cup")
-    println("Coffee is ready!")
-
-    //Etapa 2/6
-
+    //Etapa 4/6
     val scanner = Scanner(System.`in`)
-    print("Write how many cups of coffee you will need: > ")
-    val nroCafe = scanner.nextInt()
-    println("For $nroCafe cups of coffee you will need:")
-    println("${nroCafe * 200} ml of water")
-    println("${nroCafe * 50} ml of milk")
-    println("${nroCafe * 15} g of coffee beans")
-    */
-    //Etapa 3/6
+    println("The coffe machine has:")
+    var water = 400; var milk = 540; var coffee = 120; var cup = 9; var money = 550
+    println("$water of water \n$milk of milk \n$coffee of coffee beans \n$cup of disponsable cups \n$money of money")
 
-    val scanner = Scanner(System.`in`)
-    print("Write how many ml of water the coffee machine has: > ")
-    val nroWatter = scanner.nextInt()
-    print("Write how many ml of milk the coffee machine has: > ")
-    val nroMilk = scanner.nextInt()
-    print("Write how many grams of coffee beans the coffee machine has: > ")
-    val nroCoffe = scanner.nextInt()
-    print("Write how many cups of coffee you will need: > ")
-    val cant = scanner.nextInt()
+    print("\nWrite action (buy, fill, take): > ")
+    val opcion:String = scanner.next()
+    when(opcion){
+        "buy" -> {
+            print("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino: > ")
+            val opBuy = scanner.nextInt()
+            println("\nThe coffee machine has:\n${when(opBuy){
+                1 -> {
+                    water -= 250; coffee -= 16; money += 4; cup -= 1
 
-    val cantW:Int = nroWatter/200
-    val cantM:Int = nroMilk/50
-    val cantC:Int =nroCoffe/15
-
-    if (cantW>=cant){
-        if (cantM>=cant) {
-            if (cantC>=cant) {
-                if (minOf(cantW,cantM,cantC)==cant){
-                    println("Yes, I can make that amount of coffee")
-                }else{
-                    println("Yes, I can make that amount of coffee (and even ${(minOf(cantW,cantM,cantC))-cant} more than that)")
+                    "$water of water \n$milk of milk \n$coffee of coffee beans \n$cup of disponsable cups \n$money of money"
                 }
-            }
+                2 -> {
+                    water -= 350; milk -= 75; coffee -= 20; money += 7; cup -= 1
+                    "$water of water \n$milk of milk \n$coffee of coffee beans \n$cup of disponsable cups \n$money of money"
+                }
+                3 -> {
+                    water -= 200; milk -= 100; coffee -= 12; money += 6; cup -= 1
+                    "$water of water \n$milk of milk \n$coffee of coffee beans \n$cup of disponsable cups \n$money of money"
+                }
+                else -> ""
+            } }")
         }
-    }else{
-        println("No, I can make only ${minOf(cantW,cantM,cantC)} cups of coffee")
+        "fill" -> {
+            print("Write how many ml of water do you want to add: > ")
+            var w1 = scanner.nextInt()
+            print("Write how many ml of milk do you want to add: > ")
+            var m1 = scanner.nextInt()
+            print("Write how many grams of coffee beans do you want to add: > ")
+            var c1 = scanner.nextInt()
+            print("Write how many disposable cups of coffee do you want to add: > ")
+            var cup1 = scanner.nextInt()
+            water += w1; milk += m1; coffee += c1; cup += cup1
+            print("\nThe coffee machine has: \n$water of water \n$milk of milk \n$coffee of coffee beans \n$cup of disponsable cups \n$money of money")
+        }
+        "take" -> {
+            println("I gave you $$money")
+            money = 0
+            print("\nThe coffee machine has: \n$water of water \n$milk of milk \n$coffee of coffee beans \n$cup of disponsable cups \n$money of money")
+
+        }
     }
 }
