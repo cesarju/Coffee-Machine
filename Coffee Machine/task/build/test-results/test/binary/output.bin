@@ -28,7 +28,7 @@
 "Write action (buy, fill, take): > > buy
 DWhat do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino: > > 1
 
-The coffee machine has:
+The coffee machine has: 
 150 of water 
 540 of milk 
 104 of coffee beans 
@@ -46,7 +46,7 @@
 "Write action (buy, fill, take): > > buy
 DWhat do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino: > > 2
 
-The coffee machine has:
+The coffee machine has: 
 50 of water 
 465 of milk 
 100 of coffee beans 
@@ -64,7 +64,7 @@
 "Write action (buy, fill, take): > > buy
 DWhat do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino: > > 3
 
-The coffee machine has:
+The coffee machine has: 
 200 of water 
 440 of milk 
 108 of coffee beans 

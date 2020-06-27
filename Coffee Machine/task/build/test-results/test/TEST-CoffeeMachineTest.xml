@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CoffeeMachineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-06-17T00:29:37" hostname="DESKTOP-9F7IU51" time="0.167">
+<testsuite name="CoffeeMachineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-06-27T04:07:09" hostname="DESKTOP-9F7IU51" time="0.314">
   <properties/>
-  <testcase name="start" classname="CoffeeMachineTest" time="0.167"/>
+  <testcase name="start" classname="CoffeeMachineTest" time="0.314"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 The coffe machine has:
@@ -31,7 +31,7 @@ The coffe machine has:
 Write action (buy, fill, take): > > buy
 What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino: > > 1
 
-The coffee machine has:
+The coffee machine has: 
 150 of water 
 540 of milk 
 104 of coffee beans 
@@ -49,7 +49,7 @@ The coffe machine has:
 Write action (buy, fill, take): > > buy
 What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino: > > 2
 
-The coffee machine has:
+The coffee machine has: 
 50 of water 
 465 of milk 
 100 of coffee beans 
@@ -67,7 +67,7 @@ The coffe machine has:
 Write action (buy, fill, take): > > buy
 What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino: > > 3
 
-The coffee machine has:
+The coffee machine has: 
 200 of water 
 440 of milk 
 108 of coffee beans 
