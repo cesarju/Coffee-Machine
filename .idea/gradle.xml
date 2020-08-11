@@ -15,6 +15,8 @@
             <option value="$PROJECT_DIR$/Coffee Machine/task" />
             <option value="$PROJECT_DIR$/Problems/A capital letter or a digit" />
             <option value="$PROJECT_DIR$/Problems/Are the numbers different" />
+            <option value="$PROJECT_DIR$/Problems/Area printer" />
+            <option value="$PROJECT_DIR$/Problems/Bank account" />
             <option value="$PROJECT_DIR$/Problems/Between two numbers" />
             <option value="$PROJECT_DIR$/Problems/Boxes" />
             <option value="$PROJECT_DIR$/Problems/Boys in the sport class" />
@@ -22,6 +24,8 @@
             <option value="$PROJECT_DIR$/Problems/Collatz conjecture" />
             <option value="$PROJECT_DIR$/Problems/Compare Latin letters" />
             <option value="$PROJECT_DIR$/Problems/Comparing sums" />
+            <option value="$PROJECT_DIR$/Problems/Complex numbers" />
+            <option value="$PROJECT_DIR$/Problems/Composition" />
             <option value="$PROJECT_DIR$/Problems/Counting positive numbers" />
             <option value="$PROJECT_DIR$/Problems/Cutting the fraction" />
             <option value="$PROJECT_DIR$/Problems/Divide nuts equally between squirrels" />
@@ -38,9 +42,12 @@
             <option value="$PROJECT_DIR$/Problems/Number dividers" />
             <option value="$PROJECT_DIR$/Problems/Odd or even" />
             <option value="$PROJECT_DIR$/Problems/Playing with time" />
+            <option value="$PROJECT_DIR$/Problems/Point2D" />
             <option value="$PROJECT_DIR$/Problems/Print two numbers on the same line" />
             <option value="$PROJECT_DIR$/Problems/Printing each word in a new line" />
+            <option value="$PROJECT_DIR$/Problems/Pseudo-constructor" />
             <option value="$PROJECT_DIR$/Problems/Read and print" />
+            <option value="$PROJECT_DIR$/Problems/Reddit" />
             <option value="$PROJECT_DIR$/Problems/Right equation" />
             <option value="$PROJECT_DIR$/Problems/Sequence" />
             <option value="$PROJECT_DIR$/Problems/String processor" />
